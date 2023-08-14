@@ -101,8 +101,8 @@ fetchUsers(req, res){
 
 }
 
-
 module.exports = Users
+
 //LegitUser is the cookie name
 // db.query
 //passing a object 

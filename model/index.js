@@ -19,6 +19,7 @@ const {users} = require('../model')
 routes.get('/users', (req, res)=>{
     users.fetchUsers(req, res)
 })
+hy
 
 routes.get('/user/:id', (req, res)=>{
     users.fetchUser(req,res)

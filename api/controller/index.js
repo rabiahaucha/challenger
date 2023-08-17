@@ -6,7 +6,6 @@ const {verifyAToken} = require('../middleware/Authenticate')
 const {users, books, bookauthors} = require('../model')
 
 //User Router
-hiii
 routes.get('/users', (req, res)=>{
     users.fetchUsers(req, res)
 })
